@@ -1,3 +1,3 @@
-Professor, nós utilizamos o banco MYSQL e o XAMPP de server local
+Projeto feito para um projeto da faculdade e também para uma agência de carros! 
 
-O nosso formulario se voce preencher ele funciona e envia os dados.
+Ainda está em desenvolvimento...

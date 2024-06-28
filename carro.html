@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="car.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Carros - Wheels Deals</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <img id="nav_logo" src="img/Car rental 100px.gif" alt="">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="carro.php">Carro</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Contato
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="carro.html">Carro</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Contato
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Os melhores carros para
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    O lugar perfeito para encontrar o veículo dos seus sonhos! Aqui oferecemos uma ampla seleção de
+                    carros novos e usados, atendendo a diversos gostos, necessidades e orçamentos!
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver veículos
+                    </a>
+
+                    <a href="tel:+11973523749" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (11) 97352-3749
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="img/Carpool-amico-removebg (1) px.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Carros</h2>
+            <h3 class="section-subtitle">Nossos melhores carros!</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div> <!--Div HEART-->
+
+                    <img src="img/Fast car-cuate 230px a.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Ferrari
+                    </h3>
+
+                    <span class="dish-description">
+                        Apresentamos a Ferrari, uma obra-prima do automobilismo que combina luxo, desempenho e estilo em
+                        uma única máquina.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div> <!--Div RATE-->
+
+                    <div class="dish-price">
+                        <h4>R$ 1.300.000</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div> <!--Div DISH-->
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div> <!--Div HEART-->
+
+                    <img src="img/sedan car-rafiki (1) 230px.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Civic, 2007
+                    </h3>
+
+                    <span class="dish-description">
+                        O Honda Civic é um sedan compacto que combina estilo, desempenho e confiabilidade em um pacote
+                        atraente.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div> <!--Div RATE-->
+
+                    <div class="dish-price">
+                        <h4>R$ 200.000</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div> <!--Div DISH-->
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div> <!--Div HEART-->
+
+                    <img src="img/Pick up truck-amico (1) 230px.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Pick UP
+                    </h3>
+
+                    <span class="dish-description">
+                        A picape é um tipo de veículo utilitário que combina a capacidade de carga de um caminhão com a
+                        praticidade e versatilidade de um automóvel.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div> <!--Div RATE-->
+
+                    <div class="dish-price">
+                        <h4>R$ 150.000</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div> <!--Div DISH-->
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div> <!--Div HEART-->
+
+                    <img src="img/sedan car-cuate (1).png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Civic, 2021
+                    </h3>
+
+                    <span class="dish-description">
+                        O Honda Civic 2021 é um sedan compacto conhecido por seu design moderno, desempenho confiável e
+                        tecnologia avançada.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div> <!--Div RATE-->
+
+                    <div class="dish-price">
+                        <h4>R$ 400.000</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div> <!--Div DISH-->
+            </div> <!--Div DISHES-->
+        </section>
+
+        <section id="testimonials">
+            <img src="img/Car finance 617px.gif" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Avaliações
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="img/Feedback.gif" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>
+                                Eduardo Mafra
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Comprei meu carro novo na Wheels Deals e tive uma experiência incrível do início ao
+                                fim!
+                                A equipe foi extremamente atenciosa e profissional, me ajudando a encontrar o veículo
+                                perfeito que atendesse às minhas necessidades e orçamento."
+                            </p>
+                        </div> <!--Div Feedback Content-->
+                    </div> <!--Div Feedback-->
+
+                    <div class="feedback">
+                        <img src="img/Feedback.gif" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>
+                                João Henrique
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Encontrei a Wheels Deals enquanto procurava um carro usado e fiquei impressionado com a
+                                variedade de opções disponíveis em seu inventário. A equipe da Wheels Deals foi
+                                extremamente prestativa e paciente."
+                            </p>
+                        </div> <!--Div Feedback Content-->
+                    </div> <!--Div Feedback-->
+                </div> <!--Div Feedbacks-->
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div> <!--Div CONTENT-->
+        </section>
+    </main>
+
+    <footer>
+        <img src="img/wave (1) red.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Wheels Deals
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div> <!--Social Media Buttons-->
+        </div> <!--Div ITEMS-->
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
